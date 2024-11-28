@@ -1,0 +1,5 @@
+{
+  "message": "User location not found with mobileNumber: 5555555555",
+  "httpStatusCode": 404,
+  "httpStatus": "NOT_FOUND"
+}

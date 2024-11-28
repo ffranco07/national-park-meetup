@@ -1,0 +1,11 @@
+{
+  "query": "mutation addUser($firstName: String!, $lastName: String!, $password: String!, $email: String!, $mobileNumber: String!, $userStatus: UserStatus!) { addUser(firstName: $firstName, lastName: $lastName, password: $password, email: $email, mobileNumber: $mobileNumber, userStatus: $userStatus) { id firstName lastName email mobileNumber userStatus} }",
+  "variables": {
+    "firstName": "Kike",
+    "lastName": "Clutch",
+    "password": "changeitpwd",
+    "email": "clutch@mail.com",
+    "mobileNumber": "5555555577",
+    "userStatus": "ACTIVE"
+  }	
+}

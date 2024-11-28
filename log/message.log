@@ -1,0 +1,1259 @@
+2024-11-27 21:16:48,439 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:16:48,440 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:16:49,965 DEBUG ModelFactory - #########################
+2024-11-27 21:16:49,965 DEBUG ModelFactory - In createUsers
+2024-11-27 21:16:49,973 DEBUG ModelFactory - User [id=null, firstName=Charlie, lastName=Byrant, email=bryant@mail.com, mobileNumber=5555555501, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,974 DEBUG ModelFactory - User [id=null, firstName=Ruben, lastName=Johnson, email=johnson@mail.com, mobileNumber=5555555502, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,975 DEBUG ModelFactory - User [id=null, firstName=Mike, lastName=Presley, email=presley@mail.com, mobileNumber=5555555503, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,976 DEBUG ModelFactory - User [id=null, firstName=Diego, lastName=Tyson, email=tyson@mail.com, mobileNumber=5555555504, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,976 DEBUG ModelFactory - User [id=null, firstName=Felipe, lastName=Paul, email=paul@mail.com, mobileNumber=5555555505, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,977 DEBUG ModelFactory - User [id=null, firstName=Albert, lastName=Goodman, email=goodman@mail.com, mobileNumber=5555555506, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,977 DEBUG ModelFactory - User [id=null, firstName=Luke, lastName=Brown, email=brown@mail.com, mobileNumber=5555555507, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,978 DEBUG ModelFactory - User [id=null, firstName=Bryce, lastName=Brady, email=brady@mail.com, mobileNumber=5555555508, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,978 DEBUG ModelFactory - User [id=null, firstName=Sammy, lastName=Smiles, email=smiles@mail.com, mobileNumber=5555555509, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,979 DEBUG ModelFactory - User [id=null, firstName=Bill, lastName=Tipper, email=tipper@mail.com, mobileNumber=5555555510, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,980 DEBUG ModelFactory - User [id=null, firstName=Carl, lastName=Robbins, email=robbins@mail.com, mobileNumber=5555555511, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,980 DEBUG ModelFactory - User [id=null, firstName=Oscar, lastName=Mayer, email=mayer@mail.com, mobileNumber=5555555512, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,981 DEBUG ModelFactory - User [id=null, firstName=John, lastName=Gear, email=gear@mail.com, mobileNumber=5555555513, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,981 DEBUG ModelFactory - User [id=null, firstName=Eddie, lastName=Church, email=church@mail.com, mobileNumber=5555555514, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,982 DEBUG ModelFactory - User [id=null, firstName=Lily, lastName=Singer, email=singer@mail.com, mobileNumber=5555555515, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,982 DEBUG ModelFactory - User [id=null, firstName=Julie, lastName=Woods, email=woods@mail.com, mobileNumber=5555555516, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,983 DEBUG ModelFactory - User [id=null, firstName=Ana, lastName=Shelly, email=shelly@mail.com, mobileNumber=5555555517, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,983 DEBUG ModelFactory - User [id=null, firstName=Maria, lastName=Banks, email=banks@mail.com, mobileNumber=5555555518, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,984 DEBUG ModelFactory - User [id=null, firstName=Sofia, lastName=Beal, email=beal@mail.com, mobileNumber=5555555519, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,984 DEBUG ModelFactory - User [id=null, firstName=Erica, lastName=Trainer, email=trainer@mail.com, mobileNumber=5555555520, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,985 DEBUG ModelFactory - User [id=null, firstName=Marie, lastName=Montana, email=montana@mail.com, mobileNumber=5555555521, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,986 DEBUG ModelFactory - User [id=null, firstName=Selena, lastName=Swift, email=swift@mail.com, mobileNumber=5555555522, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,986 DEBUG ModelFactory - User [id=null, firstName=Jackie, lastName=Berry, email=berry@mail.com, mobileNumber=5555555523, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,987 DEBUG ModelFactory - User [id=null, firstName=Alexis, lastName=Rivers, email=rivers@mail.com, mobileNumber=5555555524, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,987 DEBUG ModelFactory - User [id=null, firstName=Sandy, lastName=Art, email=art@mail.com, mobileNumber=5555555525, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,988 DEBUG ModelFactory - User [id=null, firstName=Amanda, lastName=Barnes, email=barnes@mail.com, mobileNumber=5555555526, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,988 DEBUG ModelFactory - User [id=null, firstName=Natalie, lastName=Clark, email=clark@mail.com, mobileNumber=5555555527, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,988 DEBUG ModelFactory - User [id=null, firstName=Victoria, lastName=Adams, email=adams@mail.com, mobileNumber=5555555528, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,989 DEBUG ModelFactory - User [id=null, firstName=Helen, lastName=King, email=king@mail.com, mobileNumber=5555555529, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:49,989 DEBUG ModelFactory - User [id=null, firstName=Francisco, lastName=Test, email=francisco@mail.com, mobileNumber=5555555530, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:16:52,214 DEBUG DataLoader - Users loaded successfully!
+2024-11-27 21:16:52,245 DEBUG ModelFactory - #########################
+2024-11-27 21:16:52,246 DEBUG ModelFactory - In createLocations
+2024-11-27 21:16:52,247 DEBUG ModelFactory - Location [id=ACAD, parkName=Acadia, state=Maine, latitude=44.3876119, longitude=-68.2039123]
+2024-11-27 21:16:52,248 DEBUG ModelFactory - Location [id=AMSA, parkName=American Samoa, state=American Samoa, latitude=-14.2331268, longitude=-169.4760133]
+2024-11-27 21:16:52,248 DEBUG ModelFactory - Location [id=ARCH, parkName=Arches, state=Utah, latitude=38.5719944, longitude=-109.4735066]
+2024-11-27 21:16:52,249 DEBUG ModelFactory - Location [id=BADL, parkName=Badlands, state=South Dakota, latitude=43.7480316, longitude=-102.4983748]
+2024-11-27 21:16:52,249 DEBUG ModelFactory - Location [id=BIBE, parkName=Big Bend, state=Texas, latitude=29.2669239, longitude=-103.2201828]
+2024-11-27 21:16:52,250 DEBUG ModelFactory - Location [id=BISC, parkName=Biscayne, state=Florida, latitude=35.746512, longitude=-39.462891]
+2024-11-27 21:16:52,250 DEBUG ModelFactory - Location [id=BLCA, parkName=Black Canyon of the Gunnison, state=Colorado, latitude=38.4948194, longitude=-107.71625]
+2024-11-27 21:16:52,251 DEBUG ModelFactory - Location [id=BRCA, parkName=Bryce Canyon, state=Utah, latitude=37.6215335, longitude=-112.1549442]
+2024-11-27 21:16:52,251 DEBUG ModelFactory - Location [id=CANY, parkName=Canyonlands, state=Utah, latitude=38.3337024, longitude=-110.8076084]
+2024-11-27 21:16:52,252 DEBUG ModelFactory - Location [id=CARE, parkName=Capitol Reef, state=Utah, latitude=37.9430872999999, longitude=-110.9506636]
+2024-11-27 21:16:52,252 DEBUG ModelFactory - Location [id=CAVE, parkName=Carlsbad Caverns, state=New Mexico, latitude=32.3391752, longitude=-104.3791912]
+2024-11-27 21:16:52,253 DEBUG ModelFactory - Location [id=CHIS, parkName=Channel Islands, state=California, latitude=33.9948581, longitude=-119.7194377]
+2024-11-27 21:16:52,254 DEBUG ModelFactory - Location [id=CONG, parkName=Congaree, state=South Carolina, latitude=33.8272919, longitude=-80.7436141]
+2024-11-27 21:16:52,255 DEBUG ModelFactory - Location [id=CRLA, parkName=Crater Lake, state=Oregon, latitude=42.9445872, longitude=-122.1090039]
+2024-11-27 21:16:52,256 DEBUG ModelFactory - Location [id=CUVA, parkName=Cuyahoga Valley, state=Ohio, latitude=41.2361578, longitude=-81.55122]
+2024-11-27 21:16:52,257 DEBUG ModelFactory - Location [id=DEVA, parkName=Death Valley, state=California, Nevada, latitude=36.2460841, longitude=-116.8185076]
+2024-11-27 21:16:52,257 DEBUG ModelFactory - Location [id=DENA, parkName=Denali, state=Alaska, latitude=63.7477803, longitude=-150.3064953]
+2024-11-27 21:16:52,257 DEBUG ModelFactory - Location [id=DRTO, parkName=Dry Tortugas, state=Florida, latitude=35.746512, longitude=-39.462891]
+2024-11-27 21:16:52,258 DEBUG ModelFactory - Location [id=EVER, parkName=Everglades, state=Florida, latitude=25.2866149, longitude=-80.8986501999999]
+2024-11-27 21:16:52,258 DEBUG ModelFactory - Location [id=GAAR, parkName=Gates of the Arctic, state=Alaska, latitude=65.8443667, longitude=-153.4302993]
+2024-11-27 21:16:52,259 DEBUG ModelFactory - Location [id=GLAC, parkName=Glacier, state=Montana, latitude=48.6162807, longitude=-113.8594034]
+2024-11-27 21:16:52,259 DEBUG ModelFactory - Location [id=GLBA, parkName=Glacier Bay, state=Alaska, latitude=58.6597079999999, longitude=-136.573678]
+2024-11-27 21:16:52,260 DEBUG ModelFactory - Location [id=GRCA, parkName=Grand Canyon, state=Arizona, latitude=36.0604107, longitude=-112.1411217]
+2024-11-27 21:16:52,260 DEBUG ModelFactory - Location [id=GRTE, parkName=Grand Teton, state=Wyoming, latitude=43.7325324, longitude=-110.8059887]
+2024-11-27 21:16:52,261 DEBUG ModelFactory - Location [id=GRBA, parkName=Great Basin, state=Nevada, latitude=38.9648711, longitude=-114.1914951]
+2024-11-27 21:16:52,261 DEBUG ModelFactory - Location [id=GSDU, parkName=Great Sand Dunes, state=Colorado, latitude=37.6572135, longitude=-105.5474373]
+2024-11-27 21:16:52,261 DEBUG ModelFactory - Location [id=GRSM, parkName=Great Smoky Mountains, state=North Carolina, Tennessee, latitude=35.6839416, longitude=-83.5323006]
+2024-11-27 21:16:52,262 DEBUG ModelFactory - Location [id=GUMO, parkName=Guadalupe Mountains, state=Texas, latitude=31.7786811, longitude=-104.9856176]
+2024-11-27 21:16:52,263 DEBUG ModelFactory - Location [id=HALE, parkName=Haleakalā, state=Hawaii, latitude=20.7278194, longitude=-156.3081217]
+2024-11-27 21:16:52,264 DEBUG ModelFactory - Location [id=HAVO, parkName=Hawaii Volcanoes, state=Hawaii, latitude=19.4095008, longitude=-155.0483131]
+2024-11-27 21:16:52,264 DEBUG ModelFactory - Location [id=HOSP, parkName=Hot Springs, state=Arkansas, latitude=34.5100997, longitude=-93.0500476]
+2024-11-27 21:16:52,265 DEBUG ModelFactory - Location [id=ISRO, parkName=Isle Royale, state=Michigan, latitude=47.723087, longitude=-86.940716]
+2024-11-27 21:16:52,265 DEBUG ModelFactory - Location [id=JOTR, parkName=Joshua Tree, state=California, latitude=33.6608927, longitude=-115.9467997]
+2024-11-27 21:16:52,265 DEBUG ModelFactory - Location [id=KATM, parkName=Katmai, state=Alaska, latitude=58.0458356, longitude=-156.5982286]
+2024-11-27 21:16:52,266 DEBUG ModelFactory - Location [id=KEFJ, parkName=Kenai Fjords, state=Alaska, latitude=60.1696087999999, longitude=-149.2361887]
+2024-11-27 21:16:52,266 DEBUG ModelFactory - Location [id=KICA, parkName=Kings Canyon, state=California, latitude=36.7472811, longitude=-119.0925356]
+2024-11-27 21:16:52,267 DEBUG ModelFactory - Location [id=KOVA, parkName=Kobuk Valley, state=Alaska, latitude=67.2872981, longitude=-160.0342625]
+2024-11-27 21:16:52,267 DEBUG ModelFactory - Location [id=LACL, parkName=Lake Clark, state=Alaska, latitude=60.59772, longitude=-152.7408824]
+2024-11-27 21:16:52,267 DEBUG ModelFactory - Location [id=LAVO, parkName=Lassen Volcanic, state=California, latitude=40.5328759, longitude=-121.8412133]
+2024-11-27 21:16:52,268 DEBUG ModelFactory - Location [id=MACA, parkName=Mammoth Cave, state=Kentucky, latitude=37.2135982, longitude=-86.1548268999999]
+2024-11-27 21:16:52,268 DEBUG ModelFactory - Location [id=MEVE, parkName=Mesa Verde, state=Colorado, latitude=37.1828071, longitude=-108.4922277]
+2024-11-27 21:16:52,268 DEBUG ModelFactory - Location [id=MORA, parkName=Mount Rainier, state=Washington, latitude=46.8667428, longitude=-121.8040452]
+2024-11-27 21:16:52,269 DEBUG ModelFactory - Location [id=NOCA, parkName=North Cascades, state=Washington, latitude=48.7147254, longitude=-121.1533781]
+2024-11-27 21:16:52,269 DEBUG ModelFactory - Location [id=OLYM, parkName=Olympic, state=Washington, latitude=47.9707283, longitude=-123.5035728]
+2024-11-27 21:16:52,270 DEBUG ModelFactory - Location [id=PEFO, parkName=Petrified Forest, state=Arizona, latitude=35.0199151, longitude=-109.7829791]
+2024-11-27 21:16:52,270 DEBUG ModelFactory - Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104]
+2024-11-27 21:16:52,270 DEBUG ModelFactory - Location [id=REDW, parkName=Redwood, state=California, latitude=41.3678119, longitude=-124.0296856]
+2024-11-27 21:16:52,271 DEBUG ModelFactory - Location [id=ROMO, parkName=Rocky Mountain, state=Colorado, latitude=40.400054, longitude=-105.57937]
+2024-11-27 21:16:52,271 DEBUG ModelFactory - Location [id=SAGU, parkName=Saguaro, state=Arizona, latitude=32.0149212, longitude=-110.6645683]
+2024-11-27 21:16:52,272 DEBUG ModelFactory - Location [id=SEQU, parkName=Sequoia, state=California, latitude=36.4495198, longitude=-118.7198004]
+2024-11-27 21:16:52,272 DEBUG ModelFactory - Location [id=SHEN, parkName=Shenandoah, state=Virginia, latitude=38.5314894, longitude=-78.3522476]
+2024-11-27 21:16:52,272 DEBUG ModelFactory - Location [id=THRO, parkName=Theodore Roosevelt, state=North Dakota, latitude=46.8747588, longitude=-103.2519011]
+2024-11-27 21:16:52,273 DEBUG ModelFactory - Location [id=VIIS, parkName=Virgin Islands, state=United States Virgin Islands, latitude=18.3368114, longitude=-64.7280952]
+2024-11-27 21:16:52,273 DEBUG ModelFactory - Location [id=VOYA, parkName=Voyageurs, state=Minnesota, latitude=48.5494209, longitude=-93.3763619]
+2024-11-27 21:16:52,273 DEBUG ModelFactory - Location [id=WICA, parkName=Wind Cave, state=South Dakota, latitude=43.3759472, longitude=-103.4511768]
+2024-11-27 21:16:52,274 DEBUG ModelFactory - Location [id=WSTE, parkName=Wrangell –St. Elias, state=Alaska, latitude=61.3314317, longitude=-142.939826]
+2024-11-27 21:16:52,274 DEBUG ModelFactory - Location [id=YELL, parkName=Yellowstone, state=Wyoming, Montana, Idaho, latitude=44.4620852, longitude=-110.6424411]
+2024-11-27 21:16:52,274 DEBUG ModelFactory - Location [id=YOSE, parkName=Yosemite, state=California, latitude=37.8276596, longitude=-119.5053357]
+2024-11-27 21:16:52,275 DEBUG ModelFactory - Location [id=ZION, parkName=Zion, state=Utah, latitude=37.088313, longitude=-113.2394452]
+2024-11-27 21:16:52,332 DEBUG DataLoader - Locations loaded successfully!
+2024-11-27 21:16:52,335 DEBUG ModelFactory - #########################
+2024-11-27 21:16:52,335 DEBUG ModelFactory - In createUserLocations
+2024-11-27 21:16:52,335 DEBUG ModelFactory - UserLocation [id=null, user=User [id=1, firstName=Charlie, lastName=Byrant, email=bryant@mail.com, mobileNumber=5555555501, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.952285600-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.952285600-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-11-27 21:16:52,336 DEBUG ModelFactory - UserLocation [id=null, user=User [id=2, firstName=Ruben, lastName=Johnson, email=johnson@mail.com, mobileNumber=5555555502, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-11-27 21:16:52,336 DEBUG ModelFactory - UserLocation [id=null, user=User [id=3, firstName=Mike, lastName=Presley, email=presley@mail.com, mobileNumber=5555555503, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-11-27 21:16:52,337 DEBUG ModelFactory - UserLocation [id=null, user=User [id=4, firstName=Diego, lastName=Tyson, email=tyson@mail.com, mobileNumber=5555555504, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=CAVE, parkName=Carlsbad Caverns, state=New Mexico, latitude=32.3391752, longitude=-104.3791912], updatedAt=null]
+2024-11-27 21:16:52,337 DEBUG ModelFactory - UserLocation [id=null, user=User [id=5, firstName=Felipe, lastName=Paul, email=paul@mail.com, mobileNumber=5555555505, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=GRTE, parkName=Grand Teton, state=Wyoming, latitude=43.7325324, longitude=-110.8059887], updatedAt=null]
+2024-11-27 21:16:52,338 DEBUG ModelFactory - UserLocation [id=null, user=User [id=6, firstName=Albert, lastName=Goodman, email=goodman@mail.com, mobileNumber=5555555506, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=KATM, parkName=Katmai, state=Alaska, latitude=58.0458356, longitude=-156.5982286], updatedAt=null]
+2024-11-27 21:16:52,338 DEBUG ModelFactory - UserLocation [id=null, user=User [id=7, firstName=Luke, lastName=Brown, email=brown@mail.com, mobileNumber=5555555507, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=GRBA, parkName=Great Basin, state=Nevada, latitude=38.9648711, longitude=-114.1914951], updatedAt=null]
+2024-11-27 21:16:52,338 DEBUG ModelFactory - UserLocation [id=null, user=User [id=8, firstName=Bryce, lastName=Brady, email=brady@mail.com, mobileNumber=5555555508, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.963683300-08:00[America/Los_Angeles]], location=Location [id=DENA, parkName=Denali, state=Alaska, latitude=63.7477803, longitude=-150.3064953], updatedAt=null]
+2024-11-27 21:16:52,339 DEBUG ModelFactory - UserLocation [id=null, user=User [id=9, firstName=Sammy, lastName=Smiles, email=smiles@mail.com, mobileNumber=5555555509, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=BRCA, parkName=Bryce Canyon, state=Utah, latitude=37.6215335, longitude=-112.1549442], updatedAt=null]
+2024-11-27 21:16:52,339 DEBUG ModelFactory - UserLocation [id=null, user=User [id=10, firstName=Bill, lastName=Tipper, email=tipper@mail.com, mobileNumber=5555555510, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=MACA, parkName=Mammoth Cave, state=Kentucky, latitude=37.2135982, longitude=-86.1548268999999], updatedAt=null]
+2024-11-27 21:16:52,340 DEBUG ModelFactory - UserLocation [id=null, user=User [id=11, firstName=Carl, lastName=Robbins, email=robbins@mail.com, mobileNumber=5555555511, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=SAGU, parkName=Saguaro, state=Arizona, latitude=32.0149212, longitude=-110.6645683], updatedAt=null]
+2024-11-27 21:16:52,340 DEBUG ModelFactory - UserLocation [id=null, user=User [id=12, firstName=Oscar, lastName=Mayer, email=mayer@mail.com, mobileNumber=5555555512, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=LACL, parkName=Lake Clark, state=Alaska, latitude=60.59772, longitude=-152.7408824], updatedAt=null]
+2024-11-27 21:16:52,341 DEBUG ModelFactory - UserLocation [id=null, user=User [id=13, firstName=John, lastName=Gear, email=gear@mail.com, mobileNumber=5555555513, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=GAAR, parkName=Gates of the Arctic, state=Alaska, latitude=65.8443667, longitude=-153.4302993], updatedAt=null]
+2024-11-27 21:16:52,341 DEBUG ModelFactory - UserLocation [id=null, user=User [id=14, firstName=Eddie, lastName=Church, email=church@mail.com, mobileNumber=5555555514, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=GSDU, parkName=Great Sand Dunes, state=Colorado, latitude=37.6572135, longitude=-105.5474373], updatedAt=null]
+2024-11-27 21:16:52,341 DEBUG ModelFactory - UserLocation [id=null, user=User [id=15, firstName=Lily, lastName=Singer, email=singer@mail.com, mobileNumber=5555555515, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=GLAC, parkName=Glacier, state=Montana, latitude=48.6162807, longitude=-113.8594034], updatedAt=null]
+2024-11-27 21:16:52,342 DEBUG ModelFactory - UserLocation [id=null, user=User [id=16, firstName=Julie, lastName=Woods, email=woods@mail.com, mobileNumber=5555555516, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=CONG, parkName=Congaree, state=South Carolina, latitude=33.8272919, longitude=-80.7436141], updatedAt=null]
+2024-11-27 21:16:52,342 DEBUG ModelFactory - UserLocation [id=null, user=User [id=17, firstName=Ana, lastName=Shelly, email=shelly@mail.com, mobileNumber=5555555517, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=BLCA, parkName=Black Canyon of the Gunnison, state=Colorado, latitude=38.4948194, longitude=-107.71625], updatedAt=null]
+2024-11-27 21:16:52,343 DEBUG ModelFactory - UserLocation [id=null, user=User [id=18, firstName=Maria, lastName=Banks, email=banks@mail.com, mobileNumber=5555555518, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=CARE, parkName=Capitol Reef, state=Utah, latitude=37.9430872999999, longitude=-110.9506636], updatedAt=null]
+2024-11-27 21:16:52,343 DEBUG ModelFactory - UserLocation [id=null, user=User [id=19, firstName=Sofia, lastName=Beal, email=beal@mail.com, mobileNumber=5555555519, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.964683100-08:00[America/Los_Angeles]], location=Location [id=BADL, parkName=Badlands, state=South Dakota, latitude=43.7480316, longitude=-102.4983748], updatedAt=null]
+2024-11-27 21:16:52,344 DEBUG ModelFactory - UserLocation [id=null, user=User [id=20, firstName=Erica, lastName=Trainer, email=trainer@mail.com, mobileNumber=5555555520, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=KICA, parkName=Kings Canyon, state=California, latitude=36.7472811, longitude=-119.0925356], updatedAt=null]
+2024-11-27 21:16:52,344 DEBUG ModelFactory - UserLocation [id=null, user=User [id=21, firstName=Marie, lastName=Montana, email=montana@mail.com, mobileNumber=5555555521, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=BADL, parkName=Badlands, state=South Dakota, latitude=43.7480316, longitude=-102.4983748], updatedAt=null]
+2024-11-27 21:16:52,344 DEBUG ModelFactory - UserLocation [id=null, user=User [id=22, firstName=Selena, lastName=Swift, email=swift@mail.com, mobileNumber=5555555522, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=ZION, parkName=Zion, state=Utah, latitude=37.088313, longitude=-113.2394452], updatedAt=null]
+2024-11-27 21:16:52,345 DEBUG ModelFactory - UserLocation [id=null, user=User [id=23, firstName=Jackie, lastName=Berry, email=berry@mail.com, mobileNumber=5555555523, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=AMSA, parkName=American Samoa, state=American Samoa, latitude=-14.2331268, longitude=-169.4760133], updatedAt=null]
+2024-11-27 21:16:52,345 DEBUG ModelFactory - UserLocation [id=null, user=User [id=24, firstName=Alexis, lastName=Rivers, email=rivers@mail.com, mobileNumber=5555555524, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=SEQU, parkName=Sequoia, state=California, latitude=36.4495198, longitude=-118.7198004], updatedAt=null]
+2024-11-27 21:16:52,346 DEBUG ModelFactory - UserLocation [id=null, user=User [id=25, firstName=Sandy, lastName=Art, email=art@mail.com, mobileNumber=5555555525, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=EVER, parkName=Everglades, state=Florida, latitude=25.2866149, longitude=-80.8986501999999], updatedAt=null]
+2024-11-27 21:16:52,346 DEBUG ModelFactory - UserLocation [id=null, user=User [id=26, firstName=Amanda, lastName=Barnes, email=barnes@mail.com, mobileNumber=5555555526, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=ISRO, parkName=Isle Royale, state=Michigan, latitude=47.723087, longitude=-86.940716], updatedAt=null]
+2024-11-27 21:16:52,346 DEBUG ModelFactory - UserLocation [id=null, user=User [id=27, firstName=Natalie, lastName=Clark, email=clark@mail.com, mobileNumber=5555555527, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=HALE, parkName=Haleakalā, state=Hawaii, latitude=20.7278194, longitude=-156.3081217], updatedAt=null]
+2024-11-27 21:16:52,347 DEBUG ModelFactory - UserLocation [id=null, user=User [id=28, firstName=Victoria, lastName=Adams, email=adams@mail.com, mobileNumber=5555555528, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=GRCA, parkName=Grand Canyon, state=Arizona, latitude=36.0604107, longitude=-112.1411217], updatedAt=null]
+2024-11-27 21:16:52,347 DEBUG ModelFactory - UserLocation [id=null, user=User [id=29, firstName=Helen, lastName=King, email=king@mail.com, mobileNumber=5555555529, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.965682400-08:00[America/Los_Angeles]], location=Location [id=BIBE, parkName=Big Bend, state=Texas, latitude=29.2669239, longitude=-103.2201828], updatedAt=null]
+2024-11-27 21:16:52,348 DEBUG ModelFactory - UserLocation [id=null, user=User [id=30, firstName=Francisco, lastName=Test, email=francisco@mail.com, mobileNumber=5555555530, userStatus=ACTIVE, createdAt=2024-11-27T21:16:51.966682800-08:00[America/Los_Angeles], updatedAt=2024-11-27T21:16:51.966682800-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-11-27 21:16:52,372 DEBUG DataLoader - User locations loaded successfully!
+2024-11-27 21:17:18,108 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:17:18,108 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:17:18,109 DEBUG JwtRequestFilter - authorizationHeader: null
+2024-11-27 21:21:17,635 DEBUG AuthenticationController - #########################
+2024-11-27 21:21:17,635 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:21:17,636 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:21:17,844 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:21:17,845 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:21:17,845 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcxMjc3LCJleHAiOjE3MzI4NTc2Nzd9.-IJnhuNOYChJddifkNQ15Y3aoqAZBb5YlKEqQB_9S-0
+2024-11-27 21:21:17,871 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:21:17,871 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:21:17,871 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcxMjc3LCJleHAiOjE3MzI4NTc2Nzd9.-IJnhuNOYChJddifkNQ15Y3aoqAZBb5YlKEqQB_9S-0
+2024-11-27 21:21:17,929 DEBUG UserController - #########################
+2024-11-27 21:21:17,929 DEBUG UserController - In createUser
+2024-11-27 21:21:17,929 DEBUG UserController - user: User [id=null, firstName=Frankie, lastName=Gojo, email=frankie@mail.com, mobileNumber=999-999-9999, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-11-27 21:21:48,362 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:21:48,363 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:21:48,363 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:21:48,363 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:21:48,364 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:21:48,364 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:21:48,364 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:21:48,364 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:21:48,365 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:21:48,365 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:21:48,365 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:21:48,366 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:21:48,367 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:21:48,367 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:21:48,367 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:21:48,367 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:21:48,368 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:21:48,368 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:21:48,368 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:21:48,368 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:21:48,369 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:21:48,369 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 21:21:48,369 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:21:48,370 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:21:48,370 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:21:48,370 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:21:48,370 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:21:48,370 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:21:48,371 DEBUG ScheduledUserLocationTask - User: Helen King location updated to CUVA
+2024-11-27 21:21:48,371 DEBUG ScheduledUserLocationTask - User: Francisco Test location updated to BADL
+2024-11-27 21:21:48,371 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:21:48,372 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:21:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,386 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,387 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,388 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,389 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,390 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,391 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,392 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,393 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,394 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,395 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,396 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,397 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,398 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,399 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,400 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,401 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,402 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,403 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,404 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,405 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,406 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:21:48,407 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:25:34,349 DEBUG AuthenticationController - #########################
+2024-11-27 21:25:34,350 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:25:34,350 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:25:34,507 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:25:34,508 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:25:34,508 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcxNTM0LCJleHAiOjE3MzI4NTc5MzR9.7STOV4U6ySd-IHBRNjmEGtfNfhJroLebn7mogtLZkYs
+2024-11-27 21:25:34,513 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:25:34,514 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:25:34,514 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcxNTM0LCJleHAiOjE3MzI4NTc5MzR9.7STOV4U6ySd-IHBRNjmEGtfNfhJroLebn7mogtLZkYs
+2024-11-27 21:25:34,520 DEBUG UserController - #########################
+2024-11-27 21:25:34,520 DEBUG UserController - In getUser
+2024-11-27 21:25:34,521 DEBUG UserController - mobileNumber: 999-999-9999
+2024-11-27 21:26:48,347 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:26:48,347 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:26:48,348 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:26:48,348 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:26:48,348 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:26:48,348 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:26:48,349 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:26:48,349 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:26:48,349 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:26:48,349 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:26:48,350 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:26:48,350 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:26:48,350 DEBUG ScheduledUserLocationTask - User: John Gear location updated to ZION
+2024-11-27 21:26:48,351 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:26:48,352 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:26:48,352 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:26:48,352 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:26:48,352 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:26:48,352 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:26:48,353 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:26:48,353 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:26:48,353 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 21:26:48,353 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:26:48,354 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:26:48,354 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:26:48,354 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:26:48,354 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:26:48,355 DEBUG ScheduledUserLocationTask - User: Victoria Adams location updated to HOSP
+2024-11-27 21:26:48,355 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:26:48,355 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:26:48,356 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:26:48,356 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:26:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,386 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:26:48,387 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,351 DEBUG ScheduledUserLocationTask - User: Charlie Byrant location updated to KEFJ
+2024-11-27 21:31:48,352 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:31:48,352 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:31:48,352 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:31:48,353 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:31:48,353 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:31:48,353 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:31:48,354 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:31:48,354 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:31:48,354 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:31:48,354 DEBUG ScheduledUserLocationTask - User: Carl Robbins location updated to KEFJ
+2024-11-27 21:31:48,354 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:31:48,355 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:31:48,355 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:31:48,355 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:31:48,355 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:31:48,356 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:31:48,356 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:31:48,356 DEBUG ScheduledUserLocationTask - User: Sofia Beal location updated to CHIS
+2024-11-27 21:31:48,356 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:31:48,357 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:31:48,357 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 21:31:48,357 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:31:48,357 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:31:48,358 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:31:48,358 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:31:48,358 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:31:48,358 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:31:48,359 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:31:48,359 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:31:48,359 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:31:48,359 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:31:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:31:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,342 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:36:48,342 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:36:48,344 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:36:48,344 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:36:48,344 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:36:48,344 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:36:48,344 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:36:48,345 DEBUG ScheduledUserLocationTask - User: Bryce Brady location updated to VIIS
+2024-11-27 21:36:48,345 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:36:48,345 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:36:48,345 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:36:48,346 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:36:48,346 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:36:48,346 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:36:48,347 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:36:48,347 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:36:48,347 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:36:48,347 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:36:48,348 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:36:48,348 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:36:48,348 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User: Alexis Rivers location updated to ISRO
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:36:48,349 DEBUG ScheduledUserLocationTask - User: Natalie Clark location updated to AMSA
+2024-11-27 21:36:48,350 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:36:48,350 DEBUG ScheduledUserLocationTask - User: Helen King location updated to GAAR
+2024-11-27 21:36:48,350 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:36:48,351 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:36:48,351 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:36:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:36:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:38:25,331 DEBUG AuthenticationController - #########################
+2024-11-27 21:38:25,332 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:38:25,332 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:38:25,378 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:38:25,378 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:38:25,378 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzA1LCJleHAiOjE3MzI4NTg3MDV9.33WnkeTP6cVc3iIHMc77soB1MXucGU-Wupt8EJqKT9w
+2024-11-27 21:38:25,390 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:38:25,390 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:38:25,391 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzA1LCJleHAiOjE3MzI4NTg3MDV9.33WnkeTP6cVc3iIHMc77soB1MXucGU-Wupt8EJqKT9w
+2024-11-27 21:38:25,394 DEBUG LocationController - #########################
+2024-11-27 21:38:25,394 DEBUG LocationController - In getCurrentUserLocation
+2024-11-27 21:38:25,394 DEBUG LocationController - mobileNumber: 9999999999
+2024-11-27 21:39:16,392 DEBUG AuthenticationController - #########################
+2024-11-27 21:39:16,392 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:39:16,392 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:39:16,435 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:39:16,435 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:39:16,436 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzU2LCJleHAiOjE3MzI4NTg3NTZ9.0R5hUqnUyCoMEhYDBCfsT6Bc5qtKR1TfP-ccx4qRYXg
+2024-11-27 21:39:16,439 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:39:16,440 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:39:16,440 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzU2LCJleHAiOjE3MzI4NTg3NTZ9.0R5hUqnUyCoMEhYDBCfsT6Bc5qtKR1TfP-ccx4qRYXg
+2024-11-27 21:39:16,442 DEBUG LocationController - #########################
+2024-11-27 21:39:16,442 DEBUG LocationController - In getCurrentUserLocation
+2024-11-27 21:39:16,443 DEBUG LocationController - mobileNumber: 5555555555
+2024-11-27 21:39:27,159 DEBUG AuthenticationController - #########################
+2024-11-27 21:39:27,159 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:39:27,159 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:39:27,203 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:39:27,203 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:39:27,204 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzY3LCJleHAiOjE3MzI4NTg3Njd9.fBcnpXf5gKBET66b3Wd4c482lewNsq623jJM4xveU-E
+2024-11-27 21:39:27,207 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:39:27,207 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:39:27,207 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzcyMzY3LCJleHAiOjE3MzI4NTg3Njd9.fBcnpXf5gKBET66b3Wd4c482lewNsq623jJM4xveU-E
+2024-11-27 21:39:27,209 DEBUG LocationController - #########################
+2024-11-27 21:39:27,209 DEBUG LocationController - In getCurrentUserLocation
+2024-11-27 21:39:27,209 DEBUG LocationController - mobileNumber: 5555555530
+2024-11-27 21:41:48,343 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:41:48,343 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:41:48,344 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:41:48,344 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:41:48,344 DEBUG ScheduledUserLocationTask - User: Felipe Paul location updated to GLBA
+2024-11-27 21:41:48,344 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:41:48,345 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:41:48,345 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:41:48,345 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:41:48,345 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:41:48,346 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:41:48,346 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:41:48,346 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:41:48,346 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:41:48,346 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:41:48,347 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:41:48,347 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:41:48,347 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:41:48,347 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:41:48,347 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:41:48,348 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:41:48,348 DEBUG ScheduledUserLocationTask - User: Selena Swift location updated to YOSE
+2024-11-27 21:41:48,348 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:41:48,348 DEBUG ScheduledUserLocationTask - User: Alexis Rivers location updated to CRLA
+2024-11-27 21:41:48,348 DEBUG ScheduledUserLocationTask - User: Sandy Art location updated to AMSA
+2024-11-27 21:41:48,349 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:41:48,349 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:41:48,349 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:41:48,349 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:41:48,349 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:41:48,350 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:41:48,350 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:41:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:41:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,347 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:46:48,348 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:46:48,348 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:46:48,348 DEBUG ScheduledUserLocationTask - User: Diego Tyson location updated to SEQU
+2024-11-27 21:46:48,349 DEBUG ScheduledUserLocationTask - User: Felipe Paul location updated to DEVA
+2024-11-27 21:46:48,349 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:46:48,350 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:46:48,350 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:46:48,350 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:46:48,351 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:46:48,351 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:46:48,351 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:46:48,352 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:46:48,352 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:46:48,352 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:46:48,352 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:46:48,353 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:46:48,353 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:46:48,353 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:46:48,354 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:46:48,354 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:46:48,354 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 21:46:48,355 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:46:48,355 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:46:48,355 DEBUG ScheduledUserLocationTask - User: Sandy Art location updated to AMSA
+2024-11-27 21:46:48,356 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:46:48,356 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:46:48,356 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:46:48,356 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:46:48,357 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:46:48,357 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:46:48,357 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:46:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:46:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:40,378 DEBUG AuthenticationController - #########################
+2024-11-27 21:51:40,379 DEBUG AuthenticationController - In generateAccessToken
+2024-11-27 21:51:40,379 DEBUG AuthenticationController - username: prototypeUser
+2024-11-27 21:51:40,774 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:51:40,775 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:51:40,775 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzczMTAwLCJleHAiOjE3MzI4NTk1MDB9.uO33wV_kFP95M6sib_oLGILvEAv_GCIVoveBQGosEXQ
+2024-11-27 21:51:40,779 DEBUG JwtRequestFilter - #########################
+2024-11-27 21:51:40,780 DEBUG JwtRequestFilter - In doFilterInternal
+2024-11-27 21:51:40,780 DEBUG JwtRequestFilter - authorizationHeader: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcm90b3R5cGVVc2VyIiwiaWF0IjoxNzMyNzczMTAwLCJleHAiOjE3MzI4NTk1MDB9.uO33wV_kFP95M6sib_oLGILvEAv_GCIVoveBQGosEXQ
+2024-11-27 21:51:40,785 DEBUG ProximityController - #########################
+2024-11-27 21:51:40,798 DEBUG ProximityController - In getNearByUsers
+2024-11-27 21:51:40,798 DEBUG ProximityController - mobileNumber: 5555555530
+2024-11-27 21:51:48,340 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:51:48,340 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:51:48,341 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:51:48,341 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:51:48,341 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:51:48,341 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:51:48,342 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:51:48,342 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:51:48,342 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:51:48,343 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:51:48,343 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:51:48,343 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 21:51:48,343 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:51:48,344 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:51:48,344 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:51:48,344 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:51:48,345 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:51:48,345 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:51:48,346 DEBUG ScheduledUserLocationTask - User: Sofia Beal location updated to CAVE
+2024-11-27 21:51:48,347 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:51:48,347 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:51:48,347 DEBUG ScheduledUserLocationTask - User: Selena Swift location updated to KOVA
+2024-11-27 21:51:48,348 DEBUG ScheduledUserLocationTask - User: Jackie Berry location updated to CANY
+2024-11-27 21:51:48,348 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:51:48,348 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:51:48,348 DEBUG ScheduledUserLocationTask - User: Amanda Barnes location updated to KOVA
+2024-11-27 21:51:48,349 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:51:48,349 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:51:48,349 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:51:48,350 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 21:51:48,350 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:51:48,350 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:51:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:51:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,337 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 21:56:48,338 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 21:56:48,338 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 21:56:48,338 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 21:56:48,339 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 21:56:48,339 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 21:56:48,339 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 21:56:48,339 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 21:56:48,340 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 21:56:48,340 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 21:56:48,340 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 21:56:48,340 DEBUG ScheduledUserLocationTask - User: Oscar Mayer location updated to YELL
+2024-11-27 21:56:48,341 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 21:56:48,341 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 21:56:48,341 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 21:56:48,341 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 21:56:48,342 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 21:56:48,342 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 21:56:48,342 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 21:56:48,342 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 21:56:48,343 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 21:56:48,343 DEBUG ScheduledUserLocationTask - User: Selena Swift location updated to GRBA
+2024-11-27 21:56:48,343 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 21:56:48,343 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 21:56:48,343 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 21:56:48,344 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 21:56:48,344 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 21:56:48,344 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 21:56:48,344 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 21:56:48,344 DEBUG ScheduledUserLocationTask - User: Francisco Test location updated to KEFJ
+2024-11-27 21:56:48,345 DEBUG LocationServiceImpl - #########################
+2024-11-27 21:56:48,345 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 21:56:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,347 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 21:56:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,346 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:01:48,347 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 22:01:48,347 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:01:48,347 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:01:48,347 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:01:48,348 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 22:01:48,348 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 22:01:48,348 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:01:48,348 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 22:01:48,349 DEBUG ScheduledUserLocationTask - User: Bill Tipper location updated to SEQU
+2024-11-27 22:01:48,349 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:01:48,349 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:01:48,349 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:01:48,349 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 22:01:48,350 DEBUG ScheduledUserLocationTask - User: Lily Singer location updated to AMSA
+2024-11-27 22:01:48,350 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 22:01:48,350 DEBUG ScheduledUserLocationTask - User: Ana Shelly location updated to GRTE
+2024-11-27 22:01:48,350 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 22:01:48,350 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:01:48,351 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 22:01:48,351 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:01:48,352 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:01:48,352 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:01:48,352 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:01:48,352 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:01:48,353 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:01:48,353 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:01:48,353 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:01:48,353 DEBUG ScheduledUserLocationTask - User: Helen King location updated to GRSM
+2024-11-27 22:01:48,354 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:01:48,354 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:01:48,354 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:01:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,386 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,388 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:01:48,388 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,356 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:06:48,358 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 22:06:48,358 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:06:48,358 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:06:48,359 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:06:48,359 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 22:06:48,360 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 22:06:48,360 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:06:48,360 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 22:06:48,361 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:06:48,361 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:06:48,362 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:06:48,362 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:06:48,362 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 22:06:48,363 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:06:48,363 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 22:06:48,364 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:06:48,364 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 22:06:48,364 DEBUG ScheduledUserLocationTask - User: Sofia Beal location updated to GAAR
+2024-11-27 22:06:48,365 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 22:06:48,365 DEBUG ScheduledUserLocationTask - User: Marie Montana location updated to REDW
+2024-11-27 22:06:48,365 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:06:48,366 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:06:48,366 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:06:48,366 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:06:48,367 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:06:48,367 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:06:48,367 DEBUG ScheduledUserLocationTask - User: Victoria Adams location updated to DRTO
+2024-11-27 22:06:48,368 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:06:48,368 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:06:48,369 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:06:48,369 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:06:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,376 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,377 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,378 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,379 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,380 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,381 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,382 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,383 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,384 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,385 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,386 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,386 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:06:48,387 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,344 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:11:48,344 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 22:11:48,344 DEBUG ScheduledUserLocationTask - User: Mike Presley location updated to GRBA
+2024-11-27 22:11:48,345 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:11:48,345 DEBUG ScheduledUserLocationTask - User: Felipe Paul location updated to VOYA
+2024-11-27 22:11:48,345 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 22:11:48,346 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 22:11:48,346 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:11:48,346 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 22:11:48,346 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:11:48,347 DEBUG ScheduledUserLocationTask - User: Carl Robbins location updated to PEFO
+2024-11-27 22:11:48,347 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:11:48,347 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:11:48,347 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 22:11:48,348 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:11:48,348 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User: Ana Shelly location updated to SEQU
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:11:48,349 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:11:48,350 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:11:48,350 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:11:48,350 DEBUG ScheduledUserLocationTask - User: Sandy Art location updated to ACAD
+2024-11-27 22:11:48,350 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:11:48,351 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:11:48,351 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:11:48,352 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:11:48,352 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:11:48,352 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:11:48,353 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:11:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,368 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,370 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,371 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,372 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,373 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,374 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:11:48,375 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,338 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:16:48,339 DEBUG ScheduledUserLocationTask - User Ruben Johnson remained at the same location.
+2024-11-27 22:16:48,339 DEBUG ScheduledUserLocationTask - User: Mike Presley location updated to DRTO
+2024-11-27 22:16:48,339 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:16:48,340 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:16:48,340 DEBUG ScheduledUserLocationTask - User Albert Goodman remained at the same location.
+2024-11-27 22:16:48,340 DEBUG ScheduledUserLocationTask - User Luke Brown remained at the same location.
+2024-11-27 22:16:48,340 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:16:48,341 DEBUG ScheduledUserLocationTask - User Sammy Smiles remained at the same location.
+2024-11-27 22:16:48,341 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:16:48,341 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:16:48,341 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:16:48,342 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:16:48,342 DEBUG ScheduledUserLocationTask - User Eddie Church remained at the same location.
+2024-11-27 22:16:48,342 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:16:48,342 DEBUG ScheduledUserLocationTask - User Julie Woods remained at the same location.
+2024-11-27 22:16:48,343 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:16:48,343 DEBUG ScheduledUserLocationTask - User Maria Banks remained at the same location.
+2024-11-27 22:16:48,343 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:16:48,343 DEBUG ScheduledUserLocationTask - User Erica Trainer remained at the same location.
+2024-11-27 22:16:48,344 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:16:48,344 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:16:48,344 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:16:48,344 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:16:48,344 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:16:48,345 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:16:48,345 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:16:48,345 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:16:48,346 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:16:48,346 DEBUG ScheduledUserLocationTask - User: Francisco Test location updated to SAGU
+2024-11-27 22:16:48,346 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:16:48,346 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:16:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:16:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,334 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:21:48,336 DEBUG ScheduledUserLocationTask - User: Ruben Johnson marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,336 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:21:48,336 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:21:48,337 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:21:48,337 DEBUG ScheduledUserLocationTask - User: Albert Goodman marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,337 DEBUG ScheduledUserLocationTask - User: Luke Brown marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,337 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:21:48,338 DEBUG ScheduledUserLocationTask - User: Sammy Smiles marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,338 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:21:48,338 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:21:48,339 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:21:48,339 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:21:48,339 DEBUG ScheduledUserLocationTask - User: Eddie Church marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,339 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:21:48,339 DEBUG ScheduledUserLocationTask - User: Julie Woods marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,340 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:21:48,340 DEBUG ScheduledUserLocationTask - User: Maria Banks marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,340 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:21:48,340 DEBUG ScheduledUserLocationTask - User: Erica Trainer marked as INACTIVE due to inactivity.
+2024-11-27 22:21:48,341 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:21:48,342 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:21:48,342 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:21:48,342 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:21:48,342 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:21:48,342 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:21:48,343 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:21:48,343 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:21:48,343 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:21:48,343 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:21:48,344 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:21:48,344 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:21:48,345 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,345 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,347 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,347 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,348 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,349 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,353 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,354 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,355 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,356 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:21:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:21:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,335 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:26:48,335 DEBUG ScheduledUserLocationTask - User: Ruben Johnson marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,336 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:26:48,336 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:26:48,336 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:26:48,336 DEBUG ScheduledUserLocationTask - User: Albert Goodman marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,337 DEBUG ScheduledUserLocationTask - User: Luke Brown marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,337 DEBUG ScheduledUserLocationTask - User: Bryce Brady location updated to HALE
+2024-11-27 22:26:48,337 DEBUG ScheduledUserLocationTask - User: Sammy Smiles marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,337 DEBUG ScheduledUserLocationTask - User: Bill Tipper location updated to BLCA
+2024-11-27 22:26:48,338 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:26:48,338 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:26:48,338 DEBUG ScheduledUserLocationTask - User John Gear remained at the same location.
+2024-11-27 22:26:48,338 DEBUG ScheduledUserLocationTask - User: Eddie Church marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,339 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:26:48,339 DEBUG ScheduledUserLocationTask - User: Julie Woods marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,339 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:26:48,339 DEBUG ScheduledUserLocationTask - User: Maria Banks marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,340 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:26:48,340 DEBUG ScheduledUserLocationTask - User: Erica Trainer marked as INACTIVE due to inactivity.
+2024-11-27 22:26:48,340 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:26:48,340 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:26:48,341 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:26:48,341 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:26:48,341 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:26:48,341 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:26:48,341 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:26:48,342 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:26:48,342 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:26:48,342 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:26:48,342 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:26:48,343 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:26:48,343 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,344 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,345 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,345 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,346 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,346 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,347 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,347 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,349 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,350 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,351 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,352 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:26:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:26:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,338 DEBUG ScheduledUserLocationTask - User Charlie Byrant remained at the same location.
+2024-11-27 22:31:48,339 DEBUG ScheduledUserLocationTask - User: Ruben Johnson marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,339 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:31:48,339 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:31:48,340 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:31:48,340 DEBUG ScheduledUserLocationTask - User: Albert Goodman marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,340 DEBUG ScheduledUserLocationTask - User: Luke Brown marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,340 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:31:48,341 DEBUG ScheduledUserLocationTask - User: Sammy Smiles marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,341 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:31:48,341 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:31:48,341 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:31:48,342 DEBUG ScheduledUserLocationTask - User: John Gear marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,342 DEBUG ScheduledUserLocationTask - User: Eddie Church marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,342 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:31:48,342 DEBUG ScheduledUserLocationTask - User: Julie Woods marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,343 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:31:48,343 DEBUG ScheduledUserLocationTask - User: Maria Banks marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,343 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:31:48,343 DEBUG ScheduledUserLocationTask - User: Erica Trainer marked as INACTIVE due to inactivity.
+2024-11-27 22:31:48,344 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:31:48,344 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:31:48,344 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:31:48,344 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:31:48,345 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:31:48,345 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:31:48,345 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:31:48,345 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:31:48,345 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:31:48,346 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:31:48,346 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:31:48,346 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:31:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,347 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,347 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,348 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,349 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,350 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,351 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,352 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,352 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,353 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,354 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:31:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:31:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,336 DEBUG ScheduledUserLocationTask - User: Charlie Byrant marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,337 DEBUG ScheduledUserLocationTask - User: Ruben Johnson marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,337 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:36:48,337 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User: Albert Goodman marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User: Luke Brown marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User: Sammy Smiles marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,338 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:36:48,339 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:36:48,339 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:36:48,339 DEBUG ScheduledUserLocationTask - User: John Gear marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,339 DEBUG ScheduledUserLocationTask - User: Eddie Church marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,340 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:36:48,340 DEBUG ScheduledUserLocationTask - User: Julie Woods marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,340 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:36:48,341 DEBUG ScheduledUserLocationTask - User: Maria Banks marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,341 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:36:48,341 DEBUG ScheduledUserLocationTask - User: Erica Trainer marked as INACTIVE due to inactivity.
+2024-11-27 22:36:48,341 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:36:48,341 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:36:48,342 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:36:48,342 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:36:48,342 DEBUG ScheduledUserLocationTask - User: Sandy Art location updated to CANY
+2024-11-27 22:36:48,342 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:36:48,343 DEBUG ScheduledUserLocationTask - User Natalie Clark remained at the same location.
+2024-11-27 22:36:48,343 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:36:48,343 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:36:48,343 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:36:48,344 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:36:48,344 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:36:48,344 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,345 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,345 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,346 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,347 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,347 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,348 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,348 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,349 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,349 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,350 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,350 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,351 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,351 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,351 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,352 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,352 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:36:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,353 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,354 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,355 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,356 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:36:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,346 DEBUG ScheduledUserLocationTask - User: Charlie Byrant marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,346 DEBUG ScheduledUserLocationTask - User: Ruben Johnson marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,347 DEBUG ScheduledUserLocationTask - User Mike Presley remained at the same location.
+2024-11-27 22:41:48,347 DEBUG ScheduledUserLocationTask - User Diego Tyson remained at the same location.
+2024-11-27 22:41:48,347 DEBUG ScheduledUserLocationTask - User Felipe Paul remained at the same location.
+2024-11-27 22:41:48,347 DEBUG ScheduledUserLocationTask - User: Albert Goodman marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,348 DEBUG ScheduledUserLocationTask - User: Luke Brown marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,348 DEBUG ScheduledUserLocationTask - User Bryce Brady remained at the same location.
+2024-11-27 22:41:48,348 DEBUG ScheduledUserLocationTask - User: Sammy Smiles marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,348 DEBUG ScheduledUserLocationTask - User Bill Tipper remained at the same location.
+2024-11-27 22:41:48,349 DEBUG ScheduledUserLocationTask - User Carl Robbins remained at the same location.
+2024-11-27 22:41:48,349 DEBUG ScheduledUserLocationTask - User Oscar Mayer remained at the same location.
+2024-11-27 22:41:48,349 DEBUG ScheduledUserLocationTask - User: John Gear marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,349 DEBUG ScheduledUserLocationTask - User: Eddie Church marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,350 DEBUG ScheduledUserLocationTask - User Lily Singer remained at the same location.
+2024-11-27 22:41:48,350 DEBUG ScheduledUserLocationTask - User: Julie Woods marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,350 DEBUG ScheduledUserLocationTask - User Ana Shelly remained at the same location.
+2024-11-27 22:41:48,350 DEBUG ScheduledUserLocationTask - User: Maria Banks marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,351 DEBUG ScheduledUserLocationTask - User Sofia Beal remained at the same location.
+2024-11-27 22:41:48,351 DEBUG ScheduledUserLocationTask - User: Erica Trainer marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,351 DEBUG ScheduledUserLocationTask - User Marie Montana remained at the same location.
+2024-11-27 22:41:48,351 DEBUG ScheduledUserLocationTask - User Selena Swift remained at the same location.
+2024-11-27 22:41:48,352 DEBUG ScheduledUserLocationTask - User Jackie Berry remained at the same location.
+2024-11-27 22:41:48,352 DEBUG ScheduledUserLocationTask - User Alexis Rivers remained at the same location.
+2024-11-27 22:41:48,352 DEBUG ScheduledUserLocationTask - User Sandy Art remained at the same location.
+2024-11-27 22:41:48,352 DEBUG ScheduledUserLocationTask - User Amanda Barnes remained at the same location.
+2024-11-27 22:41:48,353 DEBUG ScheduledUserLocationTask - User: Natalie Clark marked as INACTIVE due to inactivity.
+2024-11-27 22:41:48,353 DEBUG ScheduledUserLocationTask - User Victoria Adams remained at the same location.
+2024-11-27 22:41:48,353 DEBUG ScheduledUserLocationTask - User Helen King remained at the same location.
+2024-11-27 22:41:48,353 DEBUG ScheduledUserLocationTask - User Francisco Test remained at the same location.
+2024-11-27 22:41:48,354 DEBUG LocationServiceImpl - #########################
+2024-11-27 22:41:48,354 DEBUG LocationServiceImpl - In updateUserLocations
+2024-11-27 22:41:48,355 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,356 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,357 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,358 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,358 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,359 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,359 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,360 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,360 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,361 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,361 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,362 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,362 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,363 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,363 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,363 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,364 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,364 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,365 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,366 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,367 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,368 DEBUG LocationServiceImpl - User status: INACTIVE
+2024-11-27 22:41:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,369 DEBUG LocationServiceImpl - User status: ACTIVE
+2024-11-27 22:41:48,370 DEBUG LocationServiceImpl - User status: ACTIVE

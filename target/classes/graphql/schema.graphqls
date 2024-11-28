@@ -1,0 +1,30 @@
+# GraphQL schema for User type
+type User {
+   	id: ID!
+    firstName: String!
+    lastName: String!
+    email: String!
+    mobileNumber: String!
+    userStatus: UserStatus!
+    createdAt: String!       # Could be ISO-8601 string or custom date format
+    updatedAt: String!       # Could be ISO-8601 string or custom date format
+}
+
+
+# GraphQL Queries
+type Query {
+  	getUserByMobileNumber(mobileNumber: String!): User
+}
+
+# GraphQL Mutations
+type Mutation {
+  	addUser(firstName: String!, lastName: String!, password: String!, email: String!, mobileNumber: String!, userStatus: UserStatus!): User
+		removeUser(mobileNumber: String!): Boolean
+}
+
+# Enum for User Status
+enum UserStatus {
+    ACTIVE
+    INACTIVE
+    DISABLED
+}

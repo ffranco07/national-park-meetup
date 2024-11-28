@@ -1,0 +1,7 @@
+com\cti\npmeetup\integration\NPMeetupIntegrationTest.class
+com\cti\npmeetup\integration\ProximityServiceFunctionalTest.class
+com\cti\npmeetup\integration\UserServiceFunctionalTest.class
+com\cti\npmeetup\unit\LocationServiceImplTest.class
+com\cti\npmeetup\integration\LocationServiceFunctionalTest.class
+com\cti\npmeetup\unit\ProximityServiceImplTest.class
+com\cti\npmeetup\unit\UserServiceImplTest.class

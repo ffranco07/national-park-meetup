@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  
+  <!-- Console Appender
+  <appender name="ConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+     <withJansi>true</withJansi>
+    <encoder>
+      <pattern>
+	%d{HH:mm:ss.SSS} [%highlight(%p){DEBUG=blue, INFO=green, WARN=yellow, ERROR=red, TRACE=cyan}] %logger{0} - %msg%n%throwable
+      </pattern>
+    </encoder>
+  </appender>
+
+  -->
+  
+	<!-- Console Appender (Custom coloring conversion) -->
+  <conversionRule conversionWord="highlightex" class="com.cti.npmeetup.logback.HighlightingCompositeConverterEx" />
+  <appender name="ConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+      <!--<pattern>%d{HH:mm:ss.SSS} [%highlightex(%p)] %logger{0} - %highlightex(%msg) %n%throwable</pattern> -->
+			<!--<pattern>%d{HH:mm:ss.SSS} [%highlightex(%p)] %highlightex(%logger{0}) - %msg%n</pattern>-->
+			<pattern>%d{HH:mm:ss.SSS} [%highlightex(%p)] %m%n</pattern>
+    </encoder>
+  </appender>
+  
+  <!-- Rolling File Appender -->
+  <appender name="RollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/app.log</file>
+    <encoder
+      class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <pattern>%d %p %logger{0} %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>log/app.log.%d{yyyy-MM-dd_HH-mm}</fileNamePattern>
+      <maxHistory>30</maxHistory>
+      <!-- <totalSizeCap>3GB</totalSizeCap> -->
+    </rollingPolicy>
+  </appender>
+
+	 <!-- Separate log for Message Log -->
+  <appender name="MessageLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/message.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <pattern>%d %p %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>log/message.log.%d{yyyy-MM-dd}</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+  </appender>
+
+  <!-- Separate log for Error Log -->
+  <appender name="ErrorLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/error.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d %p %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>log/error.log.%d{yyyy-MM-dd}</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+  </appender>
+
+  <!-- Separate log for Service Log -->
+  <appender name="ServiceLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/service.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d %p %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>log/service.log.%d{yyyy-MM-dd}</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+  </appender>
+
+	<!-- Separate log for Test Log -->
+  <appender name="TestLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/test.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d %p %m%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>log/test.log.%d{yyyy-MM-dd}</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+  </appender>
+
+  <!-- File Appender -->
+  <appender name="FileAppender" class="ch.qos.logback.core.FileAppender">
+    <file>log/app.log</file>
+    <encoder>
+			<pattern>%d %p %m%n</pattern>
+    </encoder>
+  </appender>
+  
+  <!-- Logger for Spring Boot (setting to ERROR level) -->
+  <logger name="org.springframework.boot" level="ERROR" additivity="false">
+    <appender-ref ref="ConsoleAppender" />
+  </logger>
+
+	<!-- Message Logger -->
+  <logger name="com.cti.npmeetup.message" level="DEBUG">
+    <appender-ref ref="MessageLogAppender" />
+  </logger>
+	
+  <!-- Error Logger -->
+  <logger name="com.cti.npmeetup.error" level="ERROR">
+    <appender-ref ref="ErrorLogAppender" />
+  </logger>
+	
+  <!-- Service Logger -->
+  <logger name="com.cti.npmeetup.service" level="DEBUG">
+    <appender-ref ref="ServiceLogAppender" />
+  </logger>
+
+	<!-- Test Logger -->
+  <logger name="com.cti.npmeetup.test" level="DEBUG" additivity="false">
+    <appender-ref ref="TestLogAppender" />
+		<appender-ref ref="ConsoleAppender" />
+  </logger>
+  
+  <!-- Root Logger -->
+  <root level="ERROR">
+    <appender-ref ref="FileAppender" />
+    <appender-ref ref="ConsoleAppender" />
+  </root>
+  
+  <!-- Logger for your application -->
+  <logger name="com.cti.npmeetup" level="DEBUG" additivity="false">
+    <appender-ref ref="FileAppender" />
+    <appender-ref ref="ConsoleAppender" />
+  </logger>
+  
+</configuration>
+

@@ -1,0 +1,6 @@
+{
+  "query": "query { getUserByMobileNumber(mobileNumber: \"5555555530\") { id firstName lastName email mobileNumber userStatus createdAt updatedAt} }"
+}
+
+
+

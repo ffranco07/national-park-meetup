@@ -1,0 +1,3 @@
+2024-11-27 21:17:18,109 ERROR JwtRequestFilter - No Authorization header found, sending 401 Unauthorized
+2024-11-27 21:38:25,404 ERROR LocationController - Data store failure: ErrorDTO [message=User location not found with mobileNumber: 9999999999, httpStatusCode=404, httpStatus=404 NOT_FOUND]
+2024-11-27 21:39:16,445 ERROR LocationController - Data store failure: ErrorDTO [message=User location not found with mobileNumber: 5555555555, httpStatusCode=404, httpStatus=404 NOT_FOUND]

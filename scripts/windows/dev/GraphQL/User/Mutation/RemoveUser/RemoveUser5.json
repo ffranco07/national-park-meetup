@@ -1,0 +1,6 @@
+{
+  "query": "mutation removeUser($mobileNumber: String!) { removeUser(mobileNumber: $mobileNumber) }",
+  "variables": {
+    "mobileNumber": "5555555580"
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 21,
+    "user": {
+      "id": 21,
+      "firstName": "Marie",
+      "lastName": "Montana",
+      "password": null,
+      "email": "montana@mail.com",
+      "mobileNumber": "5555555521",
+      "userStatus": "ACTIVE",
+      "createdAt": "2024-11-27T21:16:51.965682-08:00",
+      "updatedAt": "2024-11-27T21:16:51.965682-08:00"
+    },
+    "location": {
+      "id": "BADL",
+      "parkName": "Badlands",
+      "state": "South Dakota",
+      "latitude": 43.7480316,
+      "longitude": -102.4983748
+    },
+    "updatedAt": "2024-11-27T21:16:52.360279-08:00"
+  }
+]
