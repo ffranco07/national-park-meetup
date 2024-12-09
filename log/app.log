@@ -1,0 +1,159 @@
+2024-12-09 10:38:38,768 INFO HV000001: Hibernate Validator 8.0.1.Final
+2024-12-09 10:38:39,060 INFO Starting NPMeetupApplication v1.0.0 using Java 22.0.2 with PID 10520 (E:\CTI\national-park-meetup\target\national-park-meetup-1.0.0.jar started by franc in E:\CTI\national-park-meetup)
+2024-12-09 10:38:39,061 DEBUG Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-12-09 10:38:39,062 INFO The following 1 profile is active: "dev"
+2024-12-09 10:38:40,621 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09 10:38:40,841 INFO Finished Spring Data repository scanning in 206 ms. Found 3 JPA repository interfaces.
+2024-12-09 10:38:42,405 INFO Initializing ProtocolHandler ["http-nio-8070"]
+2024-12-09 10:38:42,419 INFO Starting service [Tomcat]
+2024-12-09 10:38:42,419 INFO Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-12-09 10:38:42,471 INFO Initializing Spring embedded WebApplicationContext
+2024-12-09 10:38:42,574 DEBUG Filter 'jwtRequestFilter' configured for use
+2024-12-09 10:38:42,628 INFO HikariPool-1 - Starting...
+2024-12-09 10:38:42,985 INFO HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db/npmeetup_db user=SA
+2024-12-09 10:38:42,987 INFO HikariPool-1 - Start completed.
+2024-12-09 10:38:43,105 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09 10:38:43,177 INFO HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-09 10:38:43,218 INFO HHH000026: Second-level cache disabled
+2024-12-09 10:38:43,593 INFO No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09 10:38:43,640 WARN HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09 10:38:44,611 INFO HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09 10:38:44,713 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09 10:38:45,123 INFO Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09 10:38:45,983 INFO Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 10:38:46,809 INFO Loaded 1 resource(s) in the GraphQL schema.
+2024-12-09 10:38:47,687 INFO Starting ProtocolHandler ["http-nio-8070"]
+2024-12-09 10:38:47,943 INFO Started NPMeetupApplication in 9.88 seconds (process running for 12.373)
+2024-12-09 10:38:48,005 DEBUG LocationServiceImpl - #########################
+2024-12-09 10:38:48,006 DEBUG LocationServiceImpl - In updateUserLocations
+2024-12-09 10:38:48,632 DEBUG ModelFactory - #########################
+2024-12-09 10:38:48,632 DEBUG ModelFactory - In createUsers
+2024-12-09 10:38:48,640 DEBUG ModelFactory - User [id=null, firstName=Charlie, lastName=Byrant, email=bryant@mail.com, mobileNumber=5555555501, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,641 DEBUG ModelFactory - User [id=null, firstName=Ruben, lastName=Johnson, email=johnson@mail.com, mobileNumber=5555555502, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,641 DEBUG ModelFactory - User [id=null, firstName=Mike, lastName=Presley, email=presley@mail.com, mobileNumber=5555555503, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,642 DEBUG ModelFactory - User [id=null, firstName=Diego, lastName=Tyson, email=tyson@mail.com, mobileNumber=5555555504, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,643 DEBUG ModelFactory - User [id=null, firstName=Felipe, lastName=Paul, email=paul@mail.com, mobileNumber=5555555505, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,643 DEBUG ModelFactory - User [id=null, firstName=Albert, lastName=Goodman, email=goodman@mail.com, mobileNumber=5555555506, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,644 DEBUG ModelFactory - User [id=null, firstName=Luke, lastName=Brown, email=brown@mail.com, mobileNumber=5555555507, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,644 DEBUG ModelFactory - User [id=null, firstName=Bryce, lastName=Brady, email=brady@mail.com, mobileNumber=5555555508, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,645 DEBUG ModelFactory - User [id=null, firstName=Sammy, lastName=Smiles, email=smiles@mail.com, mobileNumber=5555555509, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,645 DEBUG ModelFactory - User [id=null, firstName=Bill, lastName=Tipper, email=tipper@mail.com, mobileNumber=5555555510, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,646 DEBUG ModelFactory - User [id=null, firstName=Carl, lastName=Robbins, email=robbins@mail.com, mobileNumber=5555555511, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,646 DEBUG ModelFactory - User [id=null, firstName=Oscar, lastName=Mayer, email=mayer@mail.com, mobileNumber=5555555512, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,647 DEBUG ModelFactory - User [id=null, firstName=John, lastName=Gear, email=gear@mail.com, mobileNumber=5555555513, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,648 DEBUG ModelFactory - User [id=null, firstName=Eddie, lastName=Church, email=church@mail.com, mobileNumber=5555555514, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,648 DEBUG ModelFactory - User [id=null, firstName=Lily, lastName=Singer, email=singer@mail.com, mobileNumber=5555555515, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,649 DEBUG ModelFactory - User [id=null, firstName=Julie, lastName=Woods, email=woods@mail.com, mobileNumber=5555555516, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,649 DEBUG ModelFactory - User [id=null, firstName=Ana, lastName=Shelly, email=shelly@mail.com, mobileNumber=5555555517, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,650 DEBUG ModelFactory - User [id=null, firstName=Maria, lastName=Banks, email=banks@mail.com, mobileNumber=5555555518, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,650 DEBUG ModelFactory - User [id=null, firstName=Sofia, lastName=Beal, email=beal@mail.com, mobileNumber=5555555519, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,651 DEBUG ModelFactory - User [id=null, firstName=Erica, lastName=Trainer, email=trainer@mail.com, mobileNumber=5555555520, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,651 DEBUG ModelFactory - User [id=null, firstName=Marie, lastName=Montana, email=montana@mail.com, mobileNumber=5555555521, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,652 DEBUG ModelFactory - User [id=null, firstName=Selena, lastName=Swift, email=swift@mail.com, mobileNumber=5555555522, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,653 DEBUG ModelFactory - User [id=null, firstName=Jackie, lastName=Berry, email=berry@mail.com, mobileNumber=5555555523, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,653 DEBUG ModelFactory - User [id=null, firstName=Alexis, lastName=Rivers, email=rivers@mail.com, mobileNumber=5555555524, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,654 DEBUG ModelFactory - User [id=null, firstName=Sandy, lastName=Art, email=art@mail.com, mobileNumber=5555555525, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,654 DEBUG ModelFactory - User [id=null, firstName=Amanda, lastName=Barnes, email=barnes@mail.com, mobileNumber=5555555526, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,655 DEBUG ModelFactory - User [id=null, firstName=Natalie, lastName=Clark, email=clark@mail.com, mobileNumber=5555555527, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,655 DEBUG ModelFactory - User [id=null, firstName=Victoria, lastName=Adams, email=adams@mail.com, mobileNumber=5555555528, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,656 DEBUG ModelFactory - User [id=null, firstName=Helen, lastName=King, email=king@mail.com, mobileNumber=5555555529, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:48,656 DEBUG ModelFactory - User [id=null, firstName=Francisco, lastName=Test, email=francisco@mail.com, mobileNumber=5555555530, userStatus=ACTIVE, createdAt=null, updatedAt=null]
+2024-12-09 10:38:50,723 DEBUG DataLoader - Users loaded successfully!
+2024-12-09 10:38:50,752 DEBUG ModelFactory - #########################
+2024-12-09 10:38:50,753 DEBUG ModelFactory - In createLocations
+2024-12-09 10:38:50,755 DEBUG ModelFactory - Location [id=ACAD, parkName=Acadia, state=Maine, latitude=44.3876119, longitude=-68.2039123]
+2024-12-09 10:38:50,755 DEBUG ModelFactory - Location [id=AMSA, parkName=American Samoa, state=American Samoa, latitude=-14.2331268, longitude=-169.4760133]
+2024-12-09 10:38:50,756 DEBUG ModelFactory - Location [id=ARCH, parkName=Arches, state=Utah, latitude=38.5719944, longitude=-109.4735066]
+2024-12-09 10:38:50,756 DEBUG ModelFactory - Location [id=BADL, parkName=Badlands, state=South Dakota, latitude=43.7480316, longitude=-102.4983748]
+2024-12-09 10:38:50,756 DEBUG ModelFactory - Location [id=BIBE, parkName=Big Bend, state=Texas, latitude=29.2669239, longitude=-103.2201828]
+2024-12-09 10:38:50,757 DEBUG ModelFactory - Location [id=BISC, parkName=Biscayne, state=Florida, latitude=35.746512, longitude=-39.462891]
+2024-12-09 10:38:50,757 DEBUG ModelFactory - Location [id=BLCA, parkName=Black Canyon of the Gunnison, state=Colorado, latitude=38.4948194, longitude=-107.71625]
+2024-12-09 10:38:50,758 DEBUG ModelFactory - Location [id=BRCA, parkName=Bryce Canyon, state=Utah, latitude=37.6215335, longitude=-112.1549442]
+2024-12-09 10:38:50,758 DEBUG ModelFactory - Location [id=CANY, parkName=Canyonlands, state=Utah, latitude=38.3337024, longitude=-110.8076084]
+2024-12-09 10:38:50,759 DEBUG ModelFactory - Location [id=CARE, parkName=Capitol Reef, state=Utah, latitude=37.9430872999999, longitude=-110.9506636]
+2024-12-09 10:38:50,759 DEBUG ModelFactory - Location [id=CAVE, parkName=Carlsbad Caverns, state=New Mexico, latitude=32.3391752, longitude=-104.3791912]
+2024-12-09 10:38:50,760 DEBUG ModelFactory - Location [id=CHIS, parkName=Channel Islands, state=California, latitude=33.9948581, longitude=-119.7194377]
+2024-12-09 10:38:50,760 DEBUG ModelFactory - Location [id=CONG, parkName=Congaree, state=South Carolina, latitude=33.8272919, longitude=-80.7436141]
+2024-12-09 10:38:50,761 DEBUG ModelFactory - Location [id=CRLA, parkName=Crater Lake, state=Oregon, latitude=42.9445872, longitude=-122.1090039]
+2024-12-09 10:38:50,761 DEBUG ModelFactory - Location [id=CUVA, parkName=Cuyahoga Valley, state=Ohio, latitude=41.2361578, longitude=-81.55122]
+2024-12-09 10:38:50,762 DEBUG ModelFactory - Location [id=DEVA, parkName=Death Valley, state=California, Nevada, latitude=36.2460841, longitude=-116.8185076]
+2024-12-09 10:38:50,762 DEBUG ModelFactory - Location [id=DENA, parkName=Denali, state=Alaska, latitude=63.7477803, longitude=-150.3064953]
+2024-12-09 10:38:50,763 DEBUG ModelFactory - Location [id=DRTO, parkName=Dry Tortugas, state=Florida, latitude=35.746512, longitude=-39.462891]
+2024-12-09 10:38:50,763 DEBUG ModelFactory - Location [id=EVER, parkName=Everglades, state=Florida, latitude=25.2866149, longitude=-80.8986501999999]
+2024-12-09 10:38:50,764 DEBUG ModelFactory - Location [id=GAAR, parkName=Gates of the Arctic, state=Alaska, latitude=65.8443667, longitude=-153.4302993]
+2024-12-09 10:38:50,764 DEBUG ModelFactory - Location [id=GLAC, parkName=Glacier, state=Montana, latitude=48.6162807, longitude=-113.8594034]
+2024-12-09 10:38:50,765 DEBUG ModelFactory - Location [id=GLBA, parkName=Glacier Bay, state=Alaska, latitude=58.6597079999999, longitude=-136.573678]
+2024-12-09 10:38:50,765 DEBUG ModelFactory - Location [id=GRCA, parkName=Grand Canyon, state=Arizona, latitude=36.0604107, longitude=-112.1411217]
+2024-12-09 10:38:50,765 DEBUG ModelFactory - Location [id=GRTE, parkName=Grand Teton, state=Wyoming, latitude=43.7325324, longitude=-110.8059887]
+2024-12-09 10:38:50,766 DEBUG ModelFactory - Location [id=GRBA, parkName=Great Basin, state=Nevada, latitude=38.9648711, longitude=-114.1914951]
+2024-12-09 10:38:50,766 DEBUG ModelFactory - Location [id=GSDU, parkName=Great Sand Dunes, state=Colorado, latitude=37.6572135, longitude=-105.5474373]
+2024-12-09 10:38:50,766 DEBUG ModelFactory - Location [id=GRSM, parkName=Great Smoky Mountains, state=North Carolina, Tennessee, latitude=35.6839416, longitude=-83.5323006]
+2024-12-09 10:38:50,767 DEBUG ModelFactory - Location [id=GUMO, parkName=Guadalupe Mountains, state=Texas, latitude=31.7786811, longitude=-104.9856176]
+2024-12-09 10:38:50,768 DEBUG ModelFactory - Location [id=HALE, parkName=Haleakalā, state=Hawaii, latitude=20.7278194, longitude=-156.3081217]
+2024-12-09 10:38:50,768 DEBUG ModelFactory - Location [id=HAVO, parkName=Hawaii Volcanoes, state=Hawaii, latitude=19.4095008, longitude=-155.0483131]
+2024-12-09 10:38:50,769 DEBUG ModelFactory - Location [id=HOSP, parkName=Hot Springs, state=Arkansas, latitude=34.5100997, longitude=-93.0500476]
+2024-12-09 10:38:50,769 DEBUG ModelFactory - Location [id=ISRO, parkName=Isle Royale, state=Michigan, latitude=47.723087, longitude=-86.940716]
+2024-12-09 10:38:50,770 DEBUG ModelFactory - Location [id=JOTR, parkName=Joshua Tree, state=California, latitude=33.6608927, longitude=-115.9467997]
+2024-12-09 10:38:50,770 DEBUG ModelFactory - Location [id=KATM, parkName=Katmai, state=Alaska, latitude=58.0458356, longitude=-156.5982286]
+2024-12-09 10:38:50,771 DEBUG ModelFactory - Location [id=KEFJ, parkName=Kenai Fjords, state=Alaska, latitude=60.1696087999999, longitude=-149.2361887]
+2024-12-09 10:38:50,771 DEBUG ModelFactory - Location [id=KICA, parkName=Kings Canyon, state=California, latitude=36.7472811, longitude=-119.0925356]
+2024-12-09 10:38:50,772 DEBUG ModelFactory - Location [id=KOVA, parkName=Kobuk Valley, state=Alaska, latitude=67.2872981, longitude=-160.0342625]
+2024-12-09 10:38:50,772 DEBUG ModelFactory - Location [id=LACL, parkName=Lake Clark, state=Alaska, latitude=60.59772, longitude=-152.7408824]
+2024-12-09 10:38:50,772 DEBUG ModelFactory - Location [id=LAVO, parkName=Lassen Volcanic, state=California, latitude=40.5328759, longitude=-121.8412133]
+2024-12-09 10:38:50,773 DEBUG ModelFactory - Location [id=MACA, parkName=Mammoth Cave, state=Kentucky, latitude=37.2135982, longitude=-86.1548268999999]
+2024-12-09 10:38:50,773 DEBUG ModelFactory - Location [id=MEVE, parkName=Mesa Verde, state=Colorado, latitude=37.1828071, longitude=-108.4922277]
+2024-12-09 10:38:50,774 DEBUG ModelFactory - Location [id=MORA, parkName=Mount Rainier, state=Washington, latitude=46.8667428, longitude=-121.8040452]
+2024-12-09 10:38:50,774 DEBUG ModelFactory - Location [id=NOCA, parkName=North Cascades, state=Washington, latitude=48.7147254, longitude=-121.1533781]
+2024-12-09 10:38:50,775 DEBUG ModelFactory - Location [id=OLYM, parkName=Olympic, state=Washington, latitude=47.9707283, longitude=-123.5035728]
+2024-12-09 10:38:50,775 DEBUG ModelFactory - Location [id=PEFO, parkName=Petrified Forest, state=Arizona, latitude=35.0199151, longitude=-109.7829791]
+2024-12-09 10:38:50,776 DEBUG ModelFactory - Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104]
+2024-12-09 10:38:50,776 DEBUG ModelFactory - Location [id=REDW, parkName=Redwood, state=California, latitude=41.3678119, longitude=-124.0296856]
+2024-12-09 10:38:50,777 DEBUG ModelFactory - Location [id=ROMO, parkName=Rocky Mountain, state=Colorado, latitude=40.400054, longitude=-105.57937]
+2024-12-09 10:38:50,777 DEBUG ModelFactory - Location [id=SAGU, parkName=Saguaro, state=Arizona, latitude=32.0149212, longitude=-110.6645683]
+2024-12-09 10:38:50,778 DEBUG ModelFactory - Location [id=SEQU, parkName=Sequoia, state=California, latitude=36.4495198, longitude=-118.7198004]
+2024-12-09 10:38:50,778 DEBUG ModelFactory - Location [id=SHEN, parkName=Shenandoah, state=Virginia, latitude=38.5314894, longitude=-78.3522476]
+2024-12-09 10:38:50,779 DEBUG ModelFactory - Location [id=THRO, parkName=Theodore Roosevelt, state=North Dakota, latitude=46.8747588, longitude=-103.2519011]
+2024-12-09 10:38:50,779 DEBUG ModelFactory - Location [id=VIIS, parkName=Virgin Islands, state=United States Virgin Islands, latitude=18.3368114, longitude=-64.7280952]
+2024-12-09 10:38:50,780 DEBUG ModelFactory - Location [id=VOYA, parkName=Voyageurs, state=Minnesota, latitude=48.5494209, longitude=-93.3763619]
+2024-12-09 10:38:50,780 DEBUG ModelFactory - Location [id=WICA, parkName=Wind Cave, state=South Dakota, latitude=43.3759472, longitude=-103.4511768]
+2024-12-09 10:38:50,780 DEBUG ModelFactory - Location [id=WSTE, parkName=Wrangell –St. Elias, state=Alaska, latitude=61.3314317, longitude=-142.939826]
+2024-12-09 10:38:50,781 DEBUG ModelFactory - Location [id=YELL, parkName=Yellowstone, state=Wyoming, Montana, Idaho, latitude=44.4620852, longitude=-110.6424411]
+2024-12-09 10:38:50,781 DEBUG ModelFactory - Location [id=YOSE, parkName=Yosemite, state=California, latitude=37.8276596, longitude=-119.5053357]
+2024-12-09 10:38:50,782 DEBUG ModelFactory - Location [id=ZION, parkName=Zion, state=Utah, latitude=37.088313, longitude=-113.2394452]
+2024-12-09 10:38:50,845 DEBUG DataLoader - Locations loaded successfully!
+2024-12-09 10:38:50,847 DEBUG ModelFactory - #########################
+2024-12-09 10:38:50,848 DEBUG ModelFactory - In createUserLocations
+2024-12-09 10:38:50,848 DEBUG ModelFactory - UserLocation [id=null, user=User [id=1, firstName=Charlie, lastName=Byrant, email=bryant@mail.com, mobileNumber=5555555501, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.599130700-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.599130700-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-12-09 10:38:50,849 DEBUG ModelFactory - UserLocation [id=null, user=User [id=2, firstName=Ruben, lastName=Johnson, email=johnson@mail.com, mobileNumber=5555555502, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.608126700-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.608126700-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-12-09 10:38:50,849 DEBUG ModelFactory - UserLocation [id=null, user=User [id=3, firstName=Mike, lastName=Presley, email=presley@mail.com, mobileNumber=5555555503, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.608126700-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.608126700-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-12-09 10:38:50,849 DEBUG ModelFactory - UserLocation [id=null, user=User [id=4, firstName=Diego, lastName=Tyson, email=tyson@mail.com, mobileNumber=5555555504, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=YELL, parkName=Yellowstone, state=Wyoming, Montana, Idaho, latitude=44.4620852, longitude=-110.6424411], updatedAt=null]
+2024-12-09 10:38:50,850 DEBUG ModelFactory - UserLocation [id=null, user=User [id=5, firstName=Felipe, lastName=Paul, email=paul@mail.com, mobileNumber=5555555505, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=CAVE, parkName=Carlsbad Caverns, state=New Mexico, latitude=32.3391752, longitude=-104.3791912], updatedAt=null]
+2024-12-09 10:38:50,850 DEBUG ModelFactory - UserLocation [id=null, user=User [id=6, firstName=Albert, lastName=Goodman, email=goodman@mail.com, mobileNumber=5555555506, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=HALE, parkName=Haleakalā, state=Hawaii, latitude=20.7278194, longitude=-156.3081217], updatedAt=null]
+2024-12-09 10:38:50,851 DEBUG ModelFactory - UserLocation [id=null, user=User [id=7, firstName=Luke, lastName=Brown, email=brown@mail.com, mobileNumber=5555555507, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=SHEN, parkName=Shenandoah, state=Virginia, latitude=38.5314894, longitude=-78.3522476], updatedAt=null]
+2024-12-09 10:38:50,851 DEBUG ModelFactory - UserLocation [id=null, user=User [id=8, firstName=Bryce, lastName=Brady, email=brady@mail.com, mobileNumber=5555555508, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=CUVA, parkName=Cuyahoga Valley, state=Ohio, latitude=41.2361578, longitude=-81.55122], updatedAt=null]
+2024-12-09 10:38:50,852 DEBUG ModelFactory - UserLocation [id=null, user=User [id=9, firstName=Sammy, lastName=Smiles, email=smiles@mail.com, mobileNumber=5555555509, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=GRCA, parkName=Grand Canyon, state=Arizona, latitude=36.0604107, longitude=-112.1411217], updatedAt=null]
+2024-12-09 10:38:50,852 DEBUG ModelFactory - UserLocation [id=null, user=User [id=10, firstName=Bill, lastName=Tipper, email=tipper@mail.com, mobileNumber=5555555510, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=BRCA, parkName=Bryce Canyon, state=Utah, latitude=37.6215335, longitude=-112.1549442], updatedAt=null]
+2024-12-09 10:38:50,853 DEBUG ModelFactory - UserLocation [id=null, user=User [id=11, firstName=Carl, lastName=Robbins, email=robbins@mail.com, mobileNumber=5555555511, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=SHEN, parkName=Shenandoah, state=Virginia, latitude=38.5314894, longitude=-78.3522476], updatedAt=null]
+2024-12-09 10:38:50,853 DEBUG ModelFactory - UserLocation [id=null, user=User [id=12, firstName=Oscar, lastName=Mayer, email=mayer@mail.com, mobileNumber=5555555512, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=SAGU, parkName=Saguaro, state=Arizona, latitude=32.0149212, longitude=-110.6645683], updatedAt=null]
+2024-12-09 10:38:50,854 DEBUG ModelFactory - UserLocation [id=null, user=User [id=13, firstName=John, lastName=Gear, email=gear@mail.com, mobileNumber=5555555513, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=BADL, parkName=Badlands, state=South Dakota, latitude=43.7480316, longitude=-102.4983748], updatedAt=null]
+2024-12-09 10:38:50,854 DEBUG ModelFactory - UserLocation [id=null, user=User [id=14, firstName=Eddie, lastName=Church, email=church@mail.com, mobileNumber=5555555514, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.609126300-08:00[America/Los_Angeles]], location=Location [id=CUVA, parkName=Cuyahoga Valley, state=Ohio, latitude=41.2361578, longitude=-81.55122], updatedAt=null]
+2024-12-09 10:38:50,855 DEBUG ModelFactory - UserLocation [id=null, user=User [id=15, firstName=Lily, lastName=Singer, email=singer@mail.com, mobileNumber=5555555515, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=BRCA, parkName=Bryce Canyon, state=Utah, latitude=37.6215335, longitude=-112.1549442], updatedAt=null]
+2024-12-09 10:38:50,855 DEBUG ModelFactory - UserLocation [id=null, user=User [id=16, firstName=Julie, lastName=Woods, email=woods@mail.com, mobileNumber=5555555516, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=CANY, parkName=Canyonlands, state=Utah, latitude=38.3337024, longitude=-110.8076084], updatedAt=null]
+2024-12-09 10:38:50,856 DEBUG ModelFactory - UserLocation [id=null, user=User [id=17, firstName=Ana, lastName=Shelly, email=shelly@mail.com, mobileNumber=5555555517, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=GUMO, parkName=Guadalupe Mountains, state=Texas, latitude=31.7786811, longitude=-104.9856176], updatedAt=null]
+2024-12-09 10:38:50,856 DEBUG ModelFactory - UserLocation [id=null, user=User [id=18, firstName=Maria, lastName=Banks, email=banks@mail.com, mobileNumber=5555555518, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=ACAD, parkName=Acadia, state=Maine, latitude=44.3876119, longitude=-68.2039123], updatedAt=null]
+2024-12-09 10:38:50,857 DEBUG ModelFactory - UserLocation [id=null, user=User [id=19, firstName=Sofia, lastName=Beal, email=beal@mail.com, mobileNumber=5555555519, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=REDW, parkName=Redwood, state=California, latitude=41.3678119, longitude=-124.0296856], updatedAt=null]
+2024-12-09 10:38:50,857 DEBUG ModelFactory - UserLocation [id=null, user=User [id=20, firstName=Erica, lastName=Trainer, email=trainer@mail.com, mobileNumber=5555555520, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=EVER, parkName=Everglades, state=Florida, latitude=25.2866149, longitude=-80.8986501999999], updatedAt=null]
+2024-12-09 10:38:50,858 DEBUG ModelFactory - UserLocation [id=null, user=User [id=21, firstName=Marie, lastName=Montana, email=montana@mail.com, mobileNumber=5555555521, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=YOSE, parkName=Yosemite, state=California, latitude=37.8276596, longitude=-119.5053357], updatedAt=null]
+2024-12-09 10:38:50,858 DEBUG ModelFactory - UserLocation [id=null, user=User [id=22, firstName=Selena, lastName=Swift, email=swift@mail.com, mobileNumber=5555555522, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=BISC, parkName=Biscayne, state=Florida, latitude=35.746512, longitude=-39.462891], updatedAt=null]
+2024-12-09 10:38:50,859 DEBUG ModelFactory - UserLocation [id=null, user=User [id=23, firstName=Jackie, lastName=Berry, email=berry@mail.com, mobileNumber=5555555523, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=EVER, parkName=Everglades, state=Florida, latitude=25.2866149, longitude=-80.8986501999999], updatedAt=null]
+2024-12-09 10:38:50,859 DEBUG ModelFactory - UserLocation [id=null, user=User [id=24, firstName=Alexis, lastName=Rivers, email=rivers@mail.com, mobileNumber=5555555524, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.610100-08:00[America/Los_Angeles]], location=Location [id=LAVO, parkName=Lassen Volcanic, state=California, latitude=40.5328759, longitude=-121.8412133], updatedAt=null]
+2024-12-09 10:38:50,860 DEBUG ModelFactory - UserLocation [id=null, user=User [id=25, firstName=Sandy, lastName=Art, email=art@mail.com, mobileNumber=5555555525, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=GRTE, parkName=Grand Teton, state=Wyoming, latitude=43.7325324, longitude=-110.8059887], updatedAt=null]
+2024-12-09 10:38:50,860 DEBUG ModelFactory - UserLocation [id=null, user=User [id=26, firstName=Amanda, lastName=Barnes, email=barnes@mail.com, mobileNumber=5555555526, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=MEVE, parkName=Mesa Verde, state=Colorado, latitude=37.1828071, longitude=-108.4922277], updatedAt=null]
+2024-12-09 10:38:50,861 DEBUG ModelFactory - UserLocation [id=null, user=User [id=27, firstName=Natalie, lastName=Clark, email=clark@mail.com, mobileNumber=5555555527, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=GRCA, parkName=Grand Canyon, state=Arizona, latitude=36.0604107, longitude=-112.1411217], updatedAt=null]
+2024-12-09 10:38:50,861 DEBUG ModelFactory - UserLocation [id=null, user=User [id=28, firstName=Victoria, lastName=Adams, email=adams@mail.com, mobileNumber=5555555528, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=GLBA, parkName=Glacier Bay, state=Alaska, latitude=58.6597079999999, longitude=-136.573678], updatedAt=null]
+2024-12-09 10:38:50,862 DEBUG ModelFactory - UserLocation [id=null, user=User [id=29, firstName=Helen, lastName=King, email=king@mail.com, mobileNumber=5555555529, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=GUMO, parkName=Guadalupe Mountains, state=Texas, latitude=31.7786811, longitude=-104.9856176], updatedAt=null]
+2024-12-09 10:38:50,863 DEBUG ModelFactory - UserLocation [id=null, user=User [id=30, firstName=Francisco, lastName=Test, email=francisco@mail.com, mobileNumber=5555555530, userStatus=ACTIVE, createdAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles], updatedAt=2024-12-09T10:38:50.611099200-08:00[America/Los_Angeles]], location=Location [id=PINN, parkName=Pinnacles, state=California, latitude=36.4808829, longitude=-121.1593104], updatedAt=null]
+2024-12-09 10:38:50,888 DEBUG DataLoader - User locations loaded successfully!
+2024-12-09 10:38:56,563 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09 10:38:56,566 INFO HikariPool-1 - Shutdown initiated...
+2024-12-09 10:38:56,568 INFO HikariPool-1 - Shutdown completed.
